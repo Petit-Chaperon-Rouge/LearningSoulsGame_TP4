@@ -8,8 +8,12 @@ import lsg.buffs.rings.RingOfDeath;
 import lsg.characters.Hero;
 import lsg.characters.Lycanthrope;
 import lsg.characters.Monster;
+import lsg.consumables.Consumable;
+import lsg.consumables.MenuBestOfV4;
 import lsg.weapons.Claw;
 import lsg.weapons.Sword;
+import lsg.weapons.Weapon;
+
 import java.util.Scanner;
 
 /**
@@ -85,6 +89,24 @@ public class LearningSoulsGame {
         monster.setWeapon(claw);
     }
 
+    private void createExhaustedHero() {
+        hero = new Hero();
+        hero.getHitWith(99);
+        hero.setWeapon(new Weapon("Grosse Arme", 0,0,1000,100));
+        hero.attack();
+        hero.printStats();
+    }
+
+    private void aTable() {
+        MenuBestOfV4 menu = new MenuBestOfV4();
+        for (Consumable consumable : menu){
+            hero.use(consumable);
+            hero.printStats();
+            System.out.println("Apres utilisation : " + consumable.toString());
+            hero.getWeapon().toString();
+        }
+    }
+
     private void play_v1() {
         init();
         fight1v1();
@@ -113,8 +135,8 @@ public class LearningSoulsGame {
 
         //game.play_v1();
         //game.play_v2();
-        game.play_v3();
-
-
+        //game.play_v3();
+        game.createExhaustedHero();
+        game.aTable();
     }
 }

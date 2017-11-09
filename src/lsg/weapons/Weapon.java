@@ -1,5 +1,7 @@
 package lsg.weapons;
 
+import lsg.consumables.repair.RepairKit;
+
 /**
  * Created by alecoeuc on 12/10/17.
  */
@@ -71,6 +73,10 @@ public class Weapon {
      */
     public boolean isBroken() {
         return durability<=0;
+    }
+
+    public void repairWith(RepairKit kit){
+        this.setDurability(this.getDurability()+kit.use());
     }
 
     /**

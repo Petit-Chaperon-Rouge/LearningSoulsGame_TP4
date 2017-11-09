@@ -1,54 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91fa4085-dc7f-4436-bd90-1e1b7b1189b5" name="Default" comment="TP2: q7.2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/LearningSoulsGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/armor/ArmorItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/armor/BlackWitchVeil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/armor/DragonSlayerLeggings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/armor/RingedKnightArmor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/BuffItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/rings/DragonSlayerRing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/rings/Ring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/rings/RingOfDeath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/rings/RingOfSwords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/talismans/MoonStone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/talismans/NoonGift.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/buffs/talismans/Talisman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/characters/Character.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/characters/Hero.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/characters/Lycanthrope.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/characters/Monster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/Consumable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/drinks/Coffee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/drinks/Drink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/drinks/Whisky.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/drinks/Wine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/food/Americain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/food/Food.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/food/Hamburger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/helpers/Dice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/weapons/Claw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/weapons/ShotGun.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/weapons/Sword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/weapons/Weapon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/project-template.xml" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="91fa4085-dc7f-4436-bd90-1e1b7b1189b5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lsg/consumables/repair/RepairKit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningSoulsGame_TP4.iml" afterPath="$PROJECT_DIR$/LearningSoulsGame_TP4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/CharacterTest.java" afterPath="$PROJECT_DIR$/src/test/CharacterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ConsumableTest.java" afterPath="$PROJECT_DIR$/src/test/ConsumableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/LearningSoulsGameTest.java" afterPath="$PROJECT_DIR$/src/test/LearningSoulsGameTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lsg/LearningSoulsGame.java" afterPath="$PROJECT_DIR$/src/lsg/LearningSoulsGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lsg/characters/Character.java" afterPath="$PROJECT_DIR$/src/lsg/characters/Character.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java" afterPath="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lsg/weapons/Weapon.java" afterPath="$PROJECT_DIR$/src/lsg/weapons/Weapon.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,21 +27,57 @@
       <file leaf-file-name="Consumable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lsg/consumables/Consumable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+            <state relative-caret-position="305">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="44" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Character.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lsg/characters/Character.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="145" column="52" lean-forward="false" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
               <folding>
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
+                <element signature="docComment;method#getName#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#setName#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#getLife#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#setLife#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#getMaxLife#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#setMaxLife#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#getStamina#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#setStamina#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#getMaxStamina#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#setMaxStamina#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#getWeapon#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#setWeapon#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#Character#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#Character#1;class#Character#0" expanded="false" />
+                <element signature="method#Character#1;class#Character#0" expanded="false" />
+                <element signature="docComment;method#printStats#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#toString#0;class#Character#0" expanded="false" />
+                <element signature="method#toString#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#isAlive#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#attackWith#0;class#Character#0" expanded="false" />
+                <element signature="method#attackWith#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#attack#0;class#Character#0" expanded="false" />
+                <element signature="docComment;method#getHitWith#0;class#Character#0" expanded="false" />
+                <element signature="method#getHitWith#0;class#Character#0" expanded="false" />
+                <element signature="method#drink#0;class#Character#0" expanded="false" />
+                <element signature="method#eat#0;class#Character#0" expanded="false" />
+                <element signature="method#use#0;class#Character#0" expanded="false" />
+                <element signature="method#repairWeaponWith#0;class#Character#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuBestOfV1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV1.java">
+      <file leaf-file-name="MenuBestOfV4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="297">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,34 +85,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuBestOfV2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV2.java">
+      <file leaf-file-name="Hero.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lsg/characters/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="186">
+              <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#setArmorItem#0;class#Hero#0" expanded="false" />
+                <element signature="method#setArmorItem#0;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#getArmorItems#0;class#Hero#0" expanded="false" />
+                <element signature="method#getArmorItems#0;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#getTotalArmor#0;class#Hero#0" expanded="false" />
+                <element signature="method#getTotalArmor#0;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#setRing#0;class#Hero#0" expanded="false" />
+                <element signature="method#setRing#0;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#getRings#0;class#Hero#0" expanded="false" />
+                <element signature="method#getRings#0;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#getTotalBuff#0;class#Hero#0" expanded="false" />
+                <element signature="method#getTotalBuff#0;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#Hero#0;class#Hero#0" expanded="false" />
+                <element signature="method#Hero#0;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#Hero#1;class#Hero#0" expanded="false" />
+                <element signature="method#Hero#1;class#Hero#0" expanded="false" />
+                <element signature="docComment;method#armorToString#0;class#Hero#0" expanded="false" />
+                <element signature="method#armorToString#0;class#Hero#0" expanded="false" />
+                <element signature="method#main#0;class#Hero#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="LearningSoulsGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lsg/LearningSoulsGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuBestOfV3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="254">
+              <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+              <folding>
+                <element signature="method#refresh#0;class#LearningSoulsGame#0" expanded="false" />
+                <element signature="method#fight1v1#0;class#LearningSoulsGame#0" expanded="false" />
+                <element signature="method#init#0;class#LearningSoulsGame#0" expanded="false" />
+                <element signature="method#play_v2#0;class#LearningSoulsGame#0" expanded="false" />
+                <element signature="method#play_v3#0;class#LearningSoulsGame#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,13 +169,9 @@
         <option value="$PROJECT_DIR$/src/lsg/helpers/Dice.java" />
         <option value="$PROJECT_DIR$/src/lsg/characters/Monster.java" />
         <option value="$PROJECT_DIR$/src/lsg/characters/Hero.java" />
-        <option value="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV4.java" />
         <option value="$PROJECT_DIR$/src/test/ConsumableTest.java" />
         <option value="$PROJECT_DIR$/src/test/CharacterTest.java" />
-        <option value="$PROJECT_DIR$/src/lsg/LearningSoulsGame.java" />
         <option value="$PROJECT_DIR$/src/test/LearningSoulsGameTest.java" />
-        <option value="$PROJECT_DIR$/src/lsg/weapons/Weapon.java" />
-        <option value="$PROJECT_DIR$/src/lsg/characters/Character.java" />
         <option value="$PROJECT_DIR$/src/lsg/consumables/drinks/Coffe.java" />
         <option value="$PROJECT_DIR$/src/lsg/consumables/drinks/Whisky.java" />
         <option value="$PROJECT_DIR$/src/lsg/consumables/drinks/Wine.java" />
@@ -177,8 +183,14 @@
         <option value="$PROJECT_DIR$/src/lsg/consumables/Consumable.java" />
         <option value="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV1.java" />
         <option value="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV2.java" />
-        <option value="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/lsg/consumables/food/MenuBestOfV4.java" />
+        <option value="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java" />
+        <option value="$PROJECT_DIR$/src/lsg/weapons/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/lsg/consumables/repair/RepairKit.java" />
+        <option value="$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV4.java" />
+        <option value="$PROJECT_DIR$/src/lsg/LearningSoulsGame.java" />
+        <option value="$PROJECT_DIR$/src/lsg/characters/Character.java" />
       </list>
     </option>
   </component>
@@ -189,9 +201,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="807" />
+    <option name="x" value="702" />
     <option name="y" value="31" />
-    <option name="width" value="1113" />
+    <option name="width" value="1218" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -210,8 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,13 +288,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="weapons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningSoulsGame_TP4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningSoulsGame_TP4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="consumables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningSoulsGame_TP4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningSoulsGame_TP4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="characters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -327,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MenuBestOfV2">
+  <component name="RunManager" selected="JUnit.tests">
     <configuration default="false" name="tests" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -395,14 +451,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MenuBestOfV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MenuBestOfV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="lsg.consumables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="lsg.consumables.MenuBestOfV4" />
+      <option name="MAIN_CLASS_NAME" value="lsg.consumables.MenuBestOfV3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -415,17 +471,17 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="LearningSoulsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MenuBestOfV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="lsg.*" />
+          <option name="PATTERN" value="lsg.consumables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="lsg.LearningSoulsGame" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="MAIN_CLASS_NAME" value="lsg.consumables.MenuBestOfV4" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -803,16 +859,16 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.tests" />
       <item index="1" class="java.lang.String" itemvalue="Application.MenuBestOfV1" />
       <item index="2" class="java.lang.String" itemvalue="Application.MenuBestOfV2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MenuBestOfV4" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LearningSoulsGame" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MenuBestOfV3" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MenuBestOfV4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MenuBestOfV2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MenuBestOfV1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.tests" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LearningSoulsGame" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MenuBestOfV4" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.tests" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MenuBestOfV4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MenuBestOfV3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MenuBestOfV2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MenuBestOfV1" />
       </list>
     </recent_temporary>
   </component>
@@ -846,48 +902,56 @@
       <workItem from="1507820957090" duration="21000" />
       <workItem from="1508307744230" duration="14078000" />
       <workItem from="1508395813665" duration="6342000" />
-      <workItem from="1510068890736" duration="8134000" />
+      <workItem from="1510068890736" duration="8169000" />
+      <workItem from="1510240167401" duration="6513000" />
     </task>
+    <task id="LOCAL-00001" summary="TP4: q3.2">
+      <created>1510077543022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510077543022</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests - 2017.11.07 at 17h 07m 24s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 36m 27s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 17h 34m 26s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 37m 32s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 17h 40m 07s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 37m 49s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 18h 13m 14s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 38m 13s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 18h 19m 44s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 42m 01s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 18h 20m 02s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 47m 47s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 18h 37m 55s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 49m 27s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 18h 38m 09s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 51m 51s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 18h 38m 18s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 55m 38s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="tests - 2017.11.07 at 18h 38m 29s.xml">
+    <history-entry file="tests - 2017.11.09 at 17h 57m 22s.xml">
       <configuration name="tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91052000" />
+    <option name="totallyTimeSpent" value="97600000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="807" y="31" width="1113" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="702" y="31" width="1218" height="1000" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -898,20 +962,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26385808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2616408" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24758843" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16381638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17351973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -957,11 +1021,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TP2: q7.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP2: q7.2" />
+    <MESSAGE value="TP4: q3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP4: q3.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -970,8 +1035,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lsg/characters/Character.java" />
-    <entry file="file://$PROJECT_DIR$/src/lsg/characters/Monster.java" />
     <entry file="file://$PROJECT_DIR$/src/lsg/characters/Hero.java" />
     <entry file="file://$PROJECT_DIR$/src/test/CharacterTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1010,8 +1073,6 @@
     <entry file="file://$PROJECT_DIR$/src/lsg/buffs/talismans/Talisman.java" />
     <entry file="file://$PROJECT_DIR$/src/lsg/helpers/Dice.java" />
     <entry file="file://$PROJECT_DIR$/src/lsg/consumables/drinks/Coffee.java" />
-    <entry file="file://$PROJECT_DIR$/src/lsg/characters/Hero.java" />
-    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/repair/RepairKit.java" />
     <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV4.java" />
     <entry file="file://$PROJECT_DIR$/src/test/LearningSoulsGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1020,14 +1081,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lsg/LearningSoulsGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,26 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CharacterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lsg/weapons/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;method#use#0;class#Weapon#0" expanded="false" />
-            <element signature="docComment;method#isBroken#0;class#Weapon#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,8 +1111,8 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="false" />
+            <element signature="e#179#180#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,19 +1122,8 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/drinks/Drink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="false" />
+            <element signature="e#170#171#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1112,8 +1133,8 @@
         <state relative-caret-position="136">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="false" />
+            <element signature="e#184#185#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1123,8 +1144,8 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="false" />
+            <element signature="e#199#200#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1134,8 +1155,8 @@
         <state relative-caret-position="170">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1145,23 +1166,8 @@
         <state relative-caret-position="136">
           <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lsg/characters/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1802">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="docComment;method#isAlive#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#attackWith#0;class#Character#0" expanded="false" />
-            <element signature="method#attackWith#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#attack#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#getHitWith#0;class#Character#0" expanded="false" />
-            <element signature="method#getHitWith#0;class#Character#0" expanded="false" />
+            <element signature="e#136#137#0" expanded="false" />
+            <element signature="e#200#201#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1170,7 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,49 +1187,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/Consumable.java">
+    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="694">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV1.java">
+    <entry file="file://$PROJECT_DIR$/src/lsg/characters/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="186">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#setArmorItem#0;class#Hero#0" expanded="false" />
+            <element signature="method#setArmorItem#0;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#getArmorItems#0;class#Hero#0" expanded="false" />
+            <element signature="method#getArmorItems#0;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#getTotalArmor#0;class#Hero#0" expanded="false" />
+            <element signature="method#getTotalArmor#0;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#setRing#0;class#Hero#0" expanded="false" />
+            <element signature="method#setRing#0;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#getRings#0;class#Hero#0" expanded="false" />
+            <element signature="method#getRings#0;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#getTotalBuff#0;class#Hero#0" expanded="false" />
+            <element signature="method#getTotalBuff#0;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#Hero#0;class#Hero#0" expanded="false" />
+            <element signature="method#Hero#0;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#Hero#1;class#Hero#0" expanded="false" />
+            <element signature="method#Hero#1;class#Hero#0" expanded="false" />
+            <element signature="docComment;method#armorToString#0;class#Hero#0" expanded="false" />
+            <element signature="method#armorToString#0;class#Hero#0" expanded="false" />
+            <element signature="method#main#0;class#Hero#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/drinks/Drink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/repair/RepairKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/Consumable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/weapons/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="78" column="18" lean-forward="false" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;method#use#0;class#Weapon#0" expanded="false" />
+            <element signature="docComment;method#isBroken#0;class#Weapon#0" expanded="false" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Weapon#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/LearningSoulsGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+          <folding>
+            <element signature="method#refresh#0;class#LearningSoulsGame#0" expanded="false" />
+            <element signature="method#fight1v1#0;class#LearningSoulsGame#0" expanded="false" />
+            <element signature="method#init#0;class#LearningSoulsGame#0" expanded="false" />
+            <element signature="method#play_v2#0;class#LearningSoulsGame#0" expanded="false" />
+            <element signature="method#play_v3#0;class#LearningSoulsGame#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/consumables/MenuBestOfV4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CharacterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lsg/characters/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="145" column="52" lean-forward="false" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
+          <folding>
+            <element signature="docComment;method#getName#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#setName#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#getLife#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#setLife#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#getMaxLife#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#setMaxLife#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#getStamina#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#setStamina#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#getMaxStamina#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#setMaxStamina#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#getWeapon#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#setWeapon#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#Character#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#Character#1;class#Character#0" expanded="false" />
+            <element signature="method#Character#1;class#Character#0" expanded="false" />
+            <element signature="docComment;method#printStats#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Character#0" expanded="false" />
+            <element signature="method#toString#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#isAlive#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#attackWith#0;class#Character#0" expanded="false" />
+            <element signature="method#attackWith#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#attack#0;class#Character#0" expanded="false" />
+            <element signature="docComment;method#getHitWith#0;class#Character#0" expanded="false" />
+            <element signature="method#getHitWith#0;class#Character#0" expanded="false" />
+            <element signature="method#drink#0;class#Character#0" expanded="false" />
+            <element signature="method#eat#0;class#Character#0" expanded="false" />
+            <element signature="method#use#0;class#Character#0" expanded="false" />
+            <element signature="method#repairWeaponWith#0;class#Character#0" expanded="false" />
           </folding>
         </state>
       </provider>

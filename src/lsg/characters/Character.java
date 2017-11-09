@@ -1,5 +1,9 @@
 package lsg.characters;
 
+import lsg.consumables.Consumable;
+import lsg.consumables.drinks.Drink;
+import lsg.consumables.food.Food;
+import lsg.consumables.repair.RepairKit;
 import lsg.helpers.Dice;
 import lsg.weapons.Weapon;
 
@@ -17,6 +21,7 @@ public abstract class Character {
     private int maxStamina;
     private Dice dice;
     private Weapon weapon;
+    private Consumable consumable;
 
     public static final String LIFE_STAT_STRING = "life";
     public static final String STAM_STAT_STRING = "stamina";
@@ -134,6 +139,15 @@ public abstract class Character {
     }
 
 
+    public Consumable getConsumable() {
+        return consumable;
+    }
+
+    public void setConsumable(Consumable consumable) {
+        this.consumable = consumable;
+    }
+
+
 
 
     // Constructeurs
@@ -216,7 +230,6 @@ public abstract class Character {
         return damage;
     }
 
-
     /**
      * Action d'attaquer
      * @return (int) La valeur des dégâts
@@ -224,7 +237,6 @@ public abstract class Character {
     public int attack() {
         return attackWith(this.getWeapon());
     }
-
 
     /**
      * Calcule le nombre de points de vie effectivement retirés au personnage
@@ -248,6 +260,47 @@ public abstract class Character {
         return damage;
     }
 
+    private void drink(Drink drink) {
+        System.out.println(this.getName() + " drinks " + drink.toString());
+
+        int newStamina = this.getStamina()+drink.use();
+        if (newStamina > this.getMaxStamina()) {
+            newStamina = this.getMaxStamina();
+        }
+        this.setStamina(newStamina);
+    }
+
+    private void eat(Food food) {
+        System.out.println(this.getName() + " eats " + food.toString());
+
+        int newLife = this.getLife()+food.use();
+        if (newLife > this.getMaxLife()){
+            newLife = this.getMaxLife();
+        }
+        this.setLife(newLife);
+    }
+
+    public void use(Consumable consumable) {
+        if (consumable instanceof Drink){
+            this.drink((Drink)consumable);
+        }
+        else if (consumable instanceof Food){
+            this.eat((Food)consumable);
+        }
+
+        else if (consumable instanceof RepairKit){
+            this.repairWeaponWith((RepairKit)consumable);
+        }
+    }
+
+    private void repairWeaponWith(RepairKit kit){
+        System.out.println(this.getName() + " repairs " + this.getWeapon().toString() + " with " + kit.toString());
+        this.getWeapon().repairWith(kit);
+    }
+
+    public void consume() {
+        this.use(this.getConsumable());
+    }
 
     protected abstract float computeProtection();
     protected abstract float computeBuff();
