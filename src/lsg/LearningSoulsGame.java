@@ -10,6 +10,7 @@ import lsg.characters.Lycanthrope;
 import lsg.characters.Monster;
 import lsg.consumables.Consumable;
 import lsg.consumables.MenuBestOfV4;
+import lsg.consumables.food.Hamburger;
 import lsg.weapons.Claw;
 import lsg.weapons.Sword;
 import lsg.weapons.Weapon;
@@ -25,42 +26,56 @@ public class LearningSoulsGame {
     private Monster monster;
     private Scanner scanner = new Scanner(System.in);
 
+    public static final String BULLET_POINT = "\u2219 ";
 
 
     // Méthodes
 
 
+    private void title() {
+        System.out.println("#############################");
+        System.out.println("#  THE LEARNING SOULS GAME  #");
+        System.out.println("#############################\n");
+    }
+
 
     private void refresh() {
-        this.hero.printStats();
-        this.monster.printStats();
+        hero.printStats();
+        System.out.println(BULLET_POINT + hero.getWeapon().toString());
+        System.out.println(BULLET_POINT + hero.getConsumable().toString());
+        monster.printStats();
+
     }
 
 
     private void fight1v1() {
-            refresh();
+        title();
+        refresh();
 
-            boolean heroTurn = true;
-            int damage;
-            int attack;
+        boolean heroTurn = true;
+        int damage;
+        int attack;
 
         while (hero.isAlive() && monster.isAlive()) {
-            System.out.println("\nHit enter key for next move > ");
-            String str = scanner.nextLine();
-
             if (heroTurn) {
-                attack = hero.attack();
-                damage = monster.getHitWith(attack);
+                System.out.println("\nHero's action for next move : (1) attack | (2) consume > ");
+                int action = scanner.nextInt();
+                if (action == 1) {
+                    attack = hero.attack();
+                    damage = monster.getHitWith(attack);
 
-                System.out.println(hero.getName() + " attacks " + monster.getName() + " with " + hero.getWeapon().getName() + " (ATTACK:" + attack + " | DMG : " + damage + ")");
-
+                    System.out.println("\n" + hero.getName() + " attacks " + monster.getName() + " with " + hero.getWeapon().getName() + " (ATTACK:" + attack + " | DMG : " + damage + ")\n");
+                }
+                else if (action == 2) {
+                    hero.consume();
+                }
                 heroTurn = false;
             }
             else {
                 attack = monster.attack();
                 damage = hero.getHitWith(attack);
 
-                System.out.println(monster.getName() + " attacks " + hero.getName() + " with " + monster.getWeapon().getName() + " (ATTACK:" + attack + " | DMG : " + damage + ")");
+                System.out.println("\n" + monster.getName() + " attacks " + hero.getName() + " with " + monster.getWeapon().getName() + " (ATTACK:" + attack + " | DMG : " + damage + ")\n");
 
                 heroTurn = true;
             }
@@ -86,6 +101,7 @@ public class LearningSoulsGame {
         monster = new Monster();
 
         hero.setWeapon(sword);
+        hero.setConsumable(new Hamburger());
         monster.setWeapon(claw);
     }
 
@@ -103,7 +119,7 @@ public class LearningSoulsGame {
             hero.use(consumable);
             hero.printStats();
             System.out.println("Apres utilisation : " + consumable.toString());
-            hero.getWeapon().toString();
+            System.out.println(hero.getWeapon().toString());
         }
     }
 
@@ -135,8 +151,8 @@ public class LearningSoulsGame {
 
         //game.play_v1();
         //game.play_v2();
-        //game.play_v3();
-        game.createExhaustedHero();
-        game.aTable();
+        game.play_v3();
+        //game.createExhaustedHero();
+        //game.aTable();
     }
 }

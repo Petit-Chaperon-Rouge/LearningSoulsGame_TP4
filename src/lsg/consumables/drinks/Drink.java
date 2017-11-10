@@ -11,6 +11,4 @@ public class Drink extends Consumable{
         super(name, capacity, "stamina");
     }
 
-
-
 }
